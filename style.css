@@ -1,0 +1,123 @@
+.conteiner {
+    grid-gap: 30px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 444px 240px 222px 384px 438px;
+    grid-template-areas:
+        "box1"
+        "box2"
+        "box4"
+        "box5"
+        "box3"
+    ;
+    grid-gap: 24px;
+    padding: 71px 24px;
+}
+
+.box1 {
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    grid-area: box1;
+    background-color: #733FC8;
+}
+
+.box2 {
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    grid-area: box2;
+    background-color: #48556A;
+}
+
+.box3 {
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    grid-area: box3;
+    background-color: #FFFFFF;
+}
+
+.box4 {
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    grid-area: box4;
+    background-color: #FFFFFF;
+}
+
+.box5 {
+    border-radius: 15px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    grid-area: box5;
+    background-color: #19202D;
+}
+
+.icon {
+padding-left: 199px;
+}
+
+.box-name {
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    position: relative;
+    top: -106px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.status {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.name1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.status1 {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.in-box1 {
+    display: flex;
+    margin-top: 26px;
+    margin-left: 32px;
+
+}
+
+.p-bold {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding: 0 32px;
+}
+
+.p-light {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: white;
+    padding: 16px 32px;
+}
+
+.p-bold1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    padding: 0 32px;
+}
+
+.p-light1 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: black;
+    padding: 16px 32px;
+}
